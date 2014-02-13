@@ -1,0 +1,342 @@
+---
+title: CSS stylesheet
+---
+
+/* BASIC RESET */
+ul,ol,li,h1,h2,h3,h4,h5,h6,pre,form,body,html,p,blockquote,fieldset,input {margin:0; padding:0; text-decoration:none;}
+
+/* HTML ELEMENTS */
+html, body {
+  height:100%;
+}
+
+a {
+  text-decoration:none;
+}
+
+body { font-family:Helvetica Neue Bold, sans-serif; width:100%; margin:0 auto;}
+form { margin:auto; width:960px;}
+
+/* HEADER */
+#header { height:160px; }
+#outerContainer { 
+  margin:0 auto; 
+  width:960px;
+  overflow:hidden;
+}
+
+/* NAVIGATION */
+#nav-outer { 
+  top:24px; 
+  background:white; 
+}
+#logo { 
+  float: left; 
+  height: 120px; 
+  margin-left:20px; 
+  padding-top:20px; 
+  padding-bottom:0px; 
+}
+
+#navigation { 
+  height:100px; 
+  width:960px; 
+  margin:0 auto; 
+  background-position:top left; 
+  background-repeat:no-repeat; 
+}
+#navigation img {
+  height: 90px; 
+  float:left;
+}
+
+#socialMedia { 
+  float: right; 
+  margin-right: 40px; 
+  margin-top:31px; 
+}
+
+#socialMedia img { 
+  margin-left:10px; 
+  width:20px;
+}
+
+#tagline { 
+  color: rgb(139, 142, 144);
+  letter-spacing:1px;
+  clear:right;
+  float:right; 
+  font-size:25px; 
+  margin-right:40px; 
+  font-family:Futura, sans-serif; 
+  position:relative; 
+  top:5px;
+}
+
+#tagline1 { 
+  letter-spacing:3px;
+  color:rgb(139, 142, 144);
+  margin-left:10px; 
+  position:relative; 
+  top:91px; 
+  left:463px;
+}
+
+/* MENU */
+
+#nav {
+  clear:both;
+  width:100%;
+  position:relative;
+  z-index:10;
+}
+
+#navbar {
+  display:table;
+  clear:both;
+  margin: 0 auto;
+  padding: 0;
+  height: 1em; 
+  overflow:hidden;
+  width:100%;
+}
+
+#navbar ul {
+  width:100%;
+}
+
+#navbar li {
+  list-style: none;
+  float: left; 
+  border-right:1px white solid;
+}
+
+#navbar li a {
+  display: block;
+  /*font-weight: bold; pushes donate button down?*/
+  padding: 10px 49px;
+  background-color: #440F7F;
+  color: #fff;
+  text-decoration: none; 
+  z-index: 9999;
+}
+
+#navbar li ul {
+  display: none; 
+  width: 10em; /* Width for Opera */
+  background-color:  #d3d3d3;
+}
+
+#navbar li li a {
+  padding: 10px 0 10px 20px;
+  background-color: #d3d3d3;
+  color:#0389d8 !important;
+}
+
+#navbar li:hover ul {
+  display: block;
+  position: absolute;
+  margin: 0;
+  padding: 0; 
+}
+
+#navbar li:hover li {
+  float: none; 
+}
+
+#navbar li:hover li a {
+  background-color: #d3d3d3;
+  border-right: none;
+  border-bottom: 1px solid #fff;
+  color: #000; 
+}
+
+#navbar li li a:hover {
+  background-color: #8db3ff; 
+  padding: 10px 0 10px 20px;
+}
+
+#donatebtn {
+  border-right: none !important;
+  float:right !important;
+}
+
+#donatebtn a { 
+  background-color:#0389d8 !important;  /*How do I accomplish all this without the "!important"?*/
+  color:white !important; 
+  padding:4px; 
+  padding-left:20px; 
+  padding-right:20px;
+}
+
+#donatebtn:hover a { 
+  background-color:#d3d3d3 !important; 
+  color:#0389d8 !important; 
+}
+
+#donatebtn form {
+  display:none;
+}
+
+/* IMAGE SLIDER */
+.fader{
+    position: relative;
+    padding-top: 35%;
+    overflow: hidden;
+    margin-top: 33px;
+} 
+ 
+.fader .slide{
+    position: absolute;
+    width: 100%;
+    height: 340px;
+    top: 0;
+    z-index: 1;
+    opacity: 0;
+}
+ 
+.fader img.slide{
+    height: 340px;
+}
+
+.fader .prev,
+.fader .next{
+  position: absolute;
+  height: 80px;
+  line-height: 55px;
+  width: 50px;
+  font-size: 100px;
+  text-align: center;
+  color: #fff;
+  top: 50%;
+  left: 0;
+  z-index: 4;
+  margin-top: -25px;
+  cursor: pointer;
+  opacity: .7;
+  transition: all 150ms;
+}
+
+.fader .prev:hover,
+.fader .next:hover{
+  opacity: 1;
+}
+
+.fader .next{
+  left: auto;
+  right: 0;
+}
+
+.fader .pager_list{
+  position: absolute;
+  width: 100%;
+  height: 40px;
+  line-height: 40px;
+  bottom: 0;
+  text-align: center;
+  z-index: 4;
+}
+
+.fader .pager_list li{
+  display: inline-block;
+  width: 15px;
+  height: 15px;
+  margin: 0 7px;
+  background: #fff;
+  opacity: .7;
+  text-indent: -999px;
+  border-radius: 999px;
+  cursor: pointer;
+  transition: all 150ms;
+}
+
+.fader .pager_list li:hover,
+.fader .pager_list li.active{
+  opacity: 1;
+}
+
+/* CONTENT */
+#content { 
+  color:#575757; 
+  padding-top:30px;
+  background-color:white;   
+  min-height: 400px;
+  height: auto !important;
+  height: 100%;
+  margin: 0 auto 5px; 
+}
+
+#content h2, #content_pages h2 { 
+  padding-left:30px; 
+  margin: 0 auto; 
+  font-size: 30px; 
+  color:rgb(139, 142, 144); 
+}
+#content p, #content_pages p { 
+  padding:10px 30px; 
+  font-size:20px; 
+  margin:0 auto; 
+  color:rgb(139, 142, 144); 
+}
+#content p a, #content_pages p a { 
+  text-decoration:none; 
+  color:#0389d8; 
+}
+#content p a:hover, 
+#content_pages p a:hover { 
+  text-decoration:underline; 
+  color:#7F000C; 
+}
+
+#content_pages { 
+  color:#575757; 
+  padding-top:50px;
+  background-color:white;   
+  min-height: 320px;
+  height: auto !important;
+  height: 100%;
+  margin: 0 auto -75px; 
+}
+
+/*FOOTER*/
+#legalInformation{
+  width: 960px;
+  float:right;
+  margin: 0 auto 20px auto;
+  text-align: center;
+  color: #7490A3;
+  font-size: 0.8em;
+  font-weight: 100;
+}
+
+#legalInformation ul {
+  padding:10px 0 10px 0;
+}
+
+#paypalbtn {
+  margin-left:30px;
+}
+
+.horizontal.nav {
+  padding-top:10px;
+}
+
+.horizontal.nav li{
+  list-style-type: none;
+  display: inline;
+  font-size:12px;
+}
+
+.horizontal.nav li a {
+  color:white; 
+  text-decoration:none; 
+  font-weight:bold;
+}
+
+#footer {
+  background-color:#440F7F;
+  }
+
+#footer, .push {
+    height: 75px;
+}
