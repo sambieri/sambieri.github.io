@@ -2,7 +2,7 @@ name: "Revive"
 description: "Revive aims to bring basic and affordable medical care to 25 million people in slums. Find out how you can help."
 
 
-# domain without trailing slash  
+
 
 # paginate: 10  
 markdown: rdiscount 
