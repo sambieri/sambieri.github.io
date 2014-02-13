@@ -4,6 +4,7 @@ description: "Revive aims to bring basic and affordable medical care to 25 milli
 
 # domain without trailing slash  
 # url: "http://localhost:4000" 
+url: "http://sambieri.github.io"
 # baseurl: "/TeamRevive.github.io"
 
 # paginate: 10  
