@@ -21,6 +21,10 @@ form { margin:auto; width:960px;}
   overflow:hidden;
 }
 
+#header {
+  padding-bottom:20px;
+}
+
 /* NAVIGATION */
 #nav-outer { 
   top:24px; 
@@ -180,6 +184,7 @@ form { margin:auto; width:960px;}
     padding-top: 35%;
     overflow: hidden;
     margin-top: 33px;
+    margin-bottom: 60px;
 } 
  
 .fader .slide{
@@ -255,6 +260,7 @@ form { margin:auto; width:960px;}
 #content { 
   color:#575757; 
   padding-top:30px;
+  padding-bottom:30px;
   background-color:white;   
   min-height: 400px;
   height: auto !important;

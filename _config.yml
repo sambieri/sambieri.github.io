@@ -2,7 +2,9 @@ name: "Revive"
 description: "Revive aims to bring basic and affordable medical care to 25 million people in slums. Find out how you can help."
 
 
-
+# domain without trailing slash  
+# url: "http://localhost:4000" 
+url: "http://sambieri.github.io"
 
 # paginate: 10  
 markdown: rdiscount 
