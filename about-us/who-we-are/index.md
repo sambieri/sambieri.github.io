@@ -1,16 +1,22 @@
 ---
 title: Who We Are
 layout: default
-image: HeaderImage.png
 ---
-Who We Are
+<h2>Who we are</h2>
 
-![header image]({{ site.baseurl }}img/HeaderImage.png)
+Revive was created in the fall of 2013 by five MBA students from North America, India, Europe, and Asia.  Our professional experience includes engineering, marketing and communications, medical devices, and entrepreneurship.
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut suscipit nisi et diam rhoncus dictum sed vitae arcu. Morbi condimentum tristique nisl, ut aliquam dolor commodo sit amet. Cras a erat odio. Etiam at purus auctor, dignissim ante sed, accumsan justo. Ut magna augue, pulvinar eu nisl eget, tempor ultricies lacus. Proin euismod ut purus non sagittis. Nam feugiat, lacus eget elementum tincidunt, enim mi vestibulum ante, a euismod risus mi vitae nulla. Suspendisse gravida orci non aliquam rhoncus. Cras a posuere urna. Cras molestie accumsan vehicula. Ut in volutpat risus, ut convallis quam. Sed id volutpat justo.
+![Audrey Dotson]({{ site.baseurl }}img/AudreyDotson.png "")
+Audrey Dotson
 
-Nulla tempus nulla non tortor viverra, at viverra mauris cursus. Vivamus sit amet lectus et mi fermentum dapibus in et quam. Integer venenatis, lectus id egestas venenatis, eros ligula ornare nibh, ut porta magna nibh non velit. Donec ut ante sit amet quam dapibus suscipit. Sed et tortor augue. Aliquam sit amet ipsum nec elit sollicitudin lacinia. Phasellus consequat lacus nec leo feugiat, in molestie urna suscipit. Vivamus in ornare odio. Aenean volutpat rutrum ligula. Maecenas vehicula urna ultricies faucibus ullamcorper. Ut erat odio, sodales at odio eu, faucibus dictum nibh. Integer cursus dui dui, nec varius metus pulvinar nec.
+![Federico Facchinelli]({{ site.baseurl }}img/FedericoFacchinelli.png "")
+Federico Facchinelli
 
-In rhoncus ullamcorper massa, vitae commodo dolor molestie id. Aliquam erat volutpat. Donec ultrices, nibh nec egestas laoreet, sem diam facilisis odio, ut venenatis ligula leo vitae purus. Nullam eget aliquam massa. Suspendisse et est at est mattis mollis at at mi. Curabitur porttitor nec dolor ac laoreet. In mollis ipsum est, adipiscing tincidunt enim suscipit et. In scelerisque eros in vehicula vehicula. Suspendisse molestie, orci adipiscing dapibus sollicitudin, libero justo elementum nibh, ac vehicula erat eros nec mauris. Pellentesque non felis tempor, feugiat metus et, cursus quam. Quisque luctus neque vel lectus pulvinar, a tincidunt mi faucibus. Fusce gravida nulla erat, tempor vulputate neque elementum at. Integer justo enim, ultricies non lorem in, dignissim posuere mauris. Nunc vel urna laoreet, porta sem sit amet, sollicitudin ante. Nunc ut mi condimentum, dictum metus eleifend, mollis odio. Suspendisse at turpis neque.
+![Gunjan Jain]({{ site.baseurl }}img/GunjanJain.png "")
+Gunjan Jain
 
-Vestibulum dignissim eget justo et faucibus. Quisque commodo ipsum urna. Maecenas urna dui, ultricies non convallis in, rhoncus accumsan nisi. Nullam ut ante lorem. Fusce tempus libero ut dolor pellentesque feugiat. Donec quis velit non elit porta aliquam. Sed pharetra nulla vitae enim volutpat, scelerisque hendrerit felis vestibulum. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Mauris tempus convallis sapien id pellentesque. Ut malesuada nunc elit, nec tempus lacus condimentum at. Aliquam ac libero euismod, pellentesque massa non, sodales mi. Donec eu arcu vel mauris vulputate bibendum. Suspendisse in lacus tincidunt, posuere erat id, suscipit quam. Aenean pellentesque molestie blandit. Duis quis nibh et felis mollis volutpat. Mauris pellentesque velit ut mi faucibus consectetur.
+![Michael Tsai]({{ site.baseurl }}img/MichaelTsai.png "")
+Michael Tsai
+
+![Simone Varrassi]({{ site.baseurl }}img/SimoneVarrassi.png "")
+Simone Varrassi

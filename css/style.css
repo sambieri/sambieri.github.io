@@ -266,7 +266,7 @@ form { margin:auto; width:960px;}
   padding-top:30px;
   padding-bottom:30px;
   background-color:white;   
-  min-height: 400px;
+  min-height: 320px;
   height: auto !important;
   height: 100%;
   margin: 0 auto 5px; 
@@ -274,8 +274,9 @@ form { margin:auto; width:960px;}
 
 #content h2, #content_pages h2 { 
   padding-left:30px; 
+  padding-bottom:10px;
   margin: 0 auto; 
-  font-size: 30px; 
+  font-size: 23px; 
   color:rgb(139, 142, 144); 
 }
 #content p, #content_pages p { 
@@ -291,7 +292,11 @@ form { margin:auto; width:960px;}
 #content p a:hover, 
 #content_pages p a:hover { 
   text-decoration:underline; 
-  color:#7F000C; 
+  color:#440F7F; 
+}
+
+#content img {
+  min-height: 30px;
 }
 
 #content_pages { 

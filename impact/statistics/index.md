@@ -2,6 +2,6 @@
 title: Statistics
 layout: default
 ---
-Statistics
+<h2>Statistics</h2>
 
-Let's show some numbers, people!
+Coming soon.
