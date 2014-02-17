@@ -10,7 +10,7 @@ There are many barriers to providing healthcare in the slums.
 The first barrier is access. Slums are structurally-complex environments, often with no roads, running water, poor building infrastructure, and lack of sanitation. In the worst cases, houses are built on top of trash and are completely unsuitable areas to build a clinic conduct health services. In other cases, governments do not want to formally recognize the slums since the communities are illegal and they refuse to build public services in these areas.
 
 
-The second main barrier is cost. Slum dwellers often have little to no income. In countries without free medical services, there are few options for those who fall ill in these communities. They often rely on local "medicine women/men" who provide some basic services. These community practitioners are often expensive and cannot address the larger, pressing needs.
+The second main barrier is cost. Slum dwellers often have little to no income. In countries without subsidized medical services, there are few options for those who fall ill in these communities. They often rely on local "medicine women/men" who provide some basic services. These community practitioners are often expensive and cannot address the larger, pressing needs.
 
 
 A third barrier is lack of knowledge. Many slum dwellers have never been educated about non-communicable diseases. Many have never seen a traditional doctor or have a fear of getting treatment from these doctors. In other cases individuals are aware of these diseases but they lack the awareness about the impact of early diagnosis. Many people will only see a doctor when they are already very sick and in later stages of a disease, making treatment costs much greater and rates of survival lower.

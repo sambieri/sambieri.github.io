@@ -89,6 +89,7 @@ form { margin:auto; width:960px;}
   width:100%;
   position:relative;
   z-index:10;
+  min-width:930px;
 }
 
 #navbar {
@@ -97,18 +98,23 @@ form { margin:auto; width:960px;}
   margin: 0 auto;
   padding: 0;
   height: 1em; 
-  overflow:hidden;
   width:100%;
 }
 
-#navbar ul {
+#navbar ul li {
+  border-right:none;
+}
+
+#navbar ul li:hover > ul {
   width:100%;
+  overflow:hidden;
 }
 
 #navbar li {
   list-style: none;
   float: left; 
   border-right:1px white solid;
+  position:relative;
 }
 
 #navbar li a {
@@ -123,14 +129,16 @@ form { margin:auto; width:960px;}
 
 #navbar li ul {
   display: none; 
-  width: 10em; /* Width for Opera */
   background-color:  #d3d3d3;
+  left:0;
+  right:0;
 }
 
 #navbar li li a {
-  padding: 10px 0 10px 20px;
+  padding: 10px 10px 10px 20px;
   background-color: #d3d3d3;
   color:#0389d8 !important;
+  line-height:25px;
 }
 
 #navbar li:hover ul {
@@ -148,12 +156,11 @@ form { margin:auto; width:960px;}
   background-color: #d3d3d3;
   border-right: none;
   border-bottom: 1px solid #fff;
-  color: #000; 
 }
 
 #navbar li li a:hover {
   background-color: #8db3ff; 
-  padding: 10px 0 10px 20px;
+  padding: 10px 10px 10px 20px;
 }
 
 #donatebtn {
@@ -183,8 +190,6 @@ form { margin:auto; width:960px;}
     position: relative;
     padding-top: 35%;
     overflow: hidden;
-    margin-top: 33px;
-    margin-bottom: 60px;
 } 
  
 .fader .slide{
